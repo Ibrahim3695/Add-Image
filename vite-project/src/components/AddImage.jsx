@@ -11,9 +11,12 @@ const AddImage = () => {
     <div className='imageDiv'>
       <section className='boxImage'> <img src={addImage} alt="Image" /></section>
 
-      <input type="file" onChange={(e)=> setAddImage(URL.createObjectURL(e.target.files[0]))}/>
+      <input type="file" onChange={(e)=> setAddImage(URL.createObjectURL(e.target.files[0]))} id='upload' hidden/>
+
+      <label htmlFor='upload'>Upload Image</label>
     </div>
   )
 }
 
 export default AddImage
+

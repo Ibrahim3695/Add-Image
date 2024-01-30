@@ -31,13 +31,17 @@
     box-shadow: 0 0 8px lightgray;
     background-color: rgb(241, 185, 117); */
 }
-.imageDiv button{
+.imageDiv label{
     width: 20%;
     height: 10%;
     border-radius: 12px;
-    border: 1px solid rgb(165, 185, 192);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 1.5%;
+    /* border: 1px solid rgb(165, 185, 192); */
     color: white;
     cursor: pointer;
-    background-color: rgb(117, 224, 103);
+    background-color: rgb(68, 185, 53);
 
 }
